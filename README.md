@@ -5,9 +5,14 @@ Aluno: Raul Miguel Santos Nascimento
 Disciplina: COMP0463 - LABORATÓRIO DE REDES DE COMPUTADORES (2022.2 - T01)
 Professora: Edilayne Meneses Salgueiro
 
+### Pré-comandos
+```
+git clone 
+```
+
 ### Build:
 ```
-$ docker build -t fairydgames .
+docker build -t fairydgames .
 ```
 ### Execução do Servidor:
 ```
