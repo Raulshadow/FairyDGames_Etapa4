@@ -21,10 +21,10 @@ docker ps
 
 ### Testando a aplicação
 ```
-docker exec <CONTAINER ID> python TCPClient.py
+docker exec ba4e23bf3fdd python TCPClient.py
 ```
 
 ### Verificar informações do container
 ```
-docker exec -i -t <CONTAINER ID> /bin/bash
+docker exec -i -t ba4e23bf3fdd /bin/bash
 ```
