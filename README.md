@@ -7,16 +7,20 @@ Professora: Edilayne Meneses Salgueiro
 
 ### Pré-comandos
 ```
-git clone 
+git clone https://github.com/Raulshadow/FairyDGames_Etapa4_Raul.git
+```
+
+```
+cd FairyDGames_Etapa4_Raul.git
 ```
 
 ### Build:
 ```
 docker build -t fairydgames .
 ```
-### Execução do Servidor:
+### Execução como Servidor:
 ```
-docker run fairydgames
+docker run -d fairydgames
 ```
 
 ### Descobrir o Container ID do container executado com o servidor
