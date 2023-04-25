@@ -11,7 +11,7 @@ $ docker build -t fairydgames .
 ```
 ### Execução do Servidor:
 ```
-docker run ´fairydgames
+docker run fairydgames
 ```
 
 ### Descobrir o Container ID do container executado com o servidor
